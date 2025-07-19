@@ -8,20 +8,18 @@ public class PlayerMovment : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
-        // float horizontal = Input.GetAxis("Horizontal");
-        // float vertical = Input.GetAxis("Vertical");
     }
 
     void FixedUpdate()
     {
-        move();
+        Move();
     }
 
-    private void move()
+    private void Move()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
-        Vector3 dirction = new Vector3(horizontal,0 ,vertical );
-        _rigidbody.angularVelocity = dirction*_moveSpeed;
+        Vector3 dirction = new Vector3(horizontal,0 ,vertical ).normalized;
+        _rigidbody.linearVelocity = dirction*_moveSpeed;
     }
 }

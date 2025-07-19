@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0d120b-2a02-475f-a571-ee9cfb4aa340" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Collect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Collect.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Roll_A_Ball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roll_A_Ball/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovment.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -57,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752860808409</updated>
-      <workItem from="1752860817188" duration="2329000" />
+      <workItem from="1752860817188" duration="2602000" />
+      <workItem from="1752941542496" duration="7196000" />
     </task>
     <servers />
   </component>

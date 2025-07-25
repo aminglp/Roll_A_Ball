@@ -19,7 +19,7 @@ public class PlayerMovment : MonoBehaviour
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
-        Vector3 dirction = new Vector3(horizontal,0 ,vertical ).normalized;
-        _rigidbody.linearVelocity = dirction*_moveSpeed;
+        Vector3 direction = new Vector3(horizontal,0 ,vertical ).normalized;
+        _rigidbody.linearVelocity = direction*_moveSpeed;
     }
 }

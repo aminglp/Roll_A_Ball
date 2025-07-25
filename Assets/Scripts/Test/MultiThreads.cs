@@ -37,7 +37,7 @@ namespace Test
 
         public void Move()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

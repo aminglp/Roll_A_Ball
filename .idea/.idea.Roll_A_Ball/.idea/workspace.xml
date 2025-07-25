@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="df0d120b-2a02-475f-a571-ee9cfb4aa340" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Roll_A_Ball/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Roll_A_Ball/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectableObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectableObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Test/MultiThreads.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Test/MultiThreads.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiScipts/ScoreUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiScipts/ScoreUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +21,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5780850fc704417799e38550144b43932ac00/6b/557c00b8/Rigidbody.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -67,6 +75,7 @@
       <workItem from="1752860817188" duration="2602000" />
       <workItem from="1752941542496" duration="7957000" />
       <workItem from="1753119169458" duration="2133000" />
+      <workItem from="1753459007829" duration="4245000" />
     </task>
     <servers />
   </component>

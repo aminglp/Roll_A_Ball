@@ -4,9 +4,10 @@ using TMPro;
 public class ScoreUI : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI _scoreText;
-
+    private float _score;
     private void OnEnable()
     {
+        _scoreText.text = "Score:";
         EventHub.Onscore += RefreshScoreUI;
     }
 
@@ -17,7 +18,8 @@ public class ScoreUI : MonoBehaviour
 
     private void RefreshScoreUI(float score)
     {
-        _scoreText.text = ScoreManager.instance.CurrentScore.ToString("0");
+        _score = ScoreManager.instance.CurrentScore;//get property
+        _scoreText.text = $"Score: {_score}";
     }
 
     private void Start()

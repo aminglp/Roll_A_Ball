@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
@@ -15,23 +16,13 @@ public class ScoreManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         instance = this;
         DontDestroyOnLoad(gameObject);
-    }
-
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
     }
 
     public void AddScore(float score)
     {
         _score += score;
-        EventHub.RaiseScore(score);
+        EventHub.RaiseScore(_score);
     }
 }

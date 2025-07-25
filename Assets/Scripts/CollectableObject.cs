@@ -1,16 +1,14 @@
+using System;
 using UnityEngine;
 
 public class CollectableObject : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.gameObject.tag == "Player")
+        {
+            ScoreManager.instance.AddScore(2f);
+            Destroy(this.gameObject);
+        }
     }
 }

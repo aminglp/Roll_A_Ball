@@ -5,9 +5,10 @@ public class CollectableObject : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Player")
+        if (other.gameObject.CompareTag("Player") )
         {
             ScoreManager.instance.AddScore(2f);
+            
             Destroy(this.gameObject);
         }
     }
